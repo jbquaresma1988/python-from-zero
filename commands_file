@@ -1,2 +1,5 @@
 ip name-server 8.8.8.8
 ip domain-lookup
+username teste password teste
+router ospf 1
+network 0.0.0.0 255.255.255.255 area 0
