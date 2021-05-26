@@ -13,9 +13,6 @@ with open('commands_file_switch') as f:
 with open('commands_file_router') as f:
     commands_list_router = f.read().splitlines()
 
-with open('commands_file_router') as f:
-    commands_list_phyrouter = f.read().splitlines()
-
 with open('devices_file') as f:
     devices_list = f.read().splitlines()
 
